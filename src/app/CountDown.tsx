@@ -4,7 +4,7 @@ import React, {useEffect, useState} from 'react';
 
 
 
-function CountDown(props) {
+function CountDown() {
     const calculateTimeLeft = () => {
 
         const endDate    = '2023-10-22T00:00:00+05:30';

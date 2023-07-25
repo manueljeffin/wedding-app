@@ -1,6 +1,6 @@
 import React from 'react';
 // eslint-disable-next-line react/prop-types
-function BibleChapter(props) {
+function BibleChapter() {
 
     const endDate    = '2023-10-22T00:00:00+05:30';
 
