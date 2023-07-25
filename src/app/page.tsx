@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
 
-      <div class={"font-sans hover:font-serif text-xl subpixel-antialiased font-semibold"}
+      <div className={"font-sans hover:font-serif text-xl subpixel-antialiased font-semibold"}
           style={{
               position: 'relative',
               height: '100vh',
@@ -33,7 +33,7 @@ export default function Home() {
                   className={`opacity-20`}
               />
 
-              <div class={"flex flex-col h-screen justify-center items-center space-x-4 space-y-8"}>
+              <div className={"flex flex-col h-screen justify-center items-center space-x-4 space-y-8"}>
                 <BibleChapter/>
                 <CountDown/>
 
