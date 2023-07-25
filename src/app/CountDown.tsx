@@ -25,7 +25,7 @@ function CountDown() {
 
         if (difference > 0) {
             timeLeft = {
-                days: Math.floor(difference / 86400000),
+                days: Math.floor(difference / 86400000) + 1,
                 hours: Math.floor(difference / (1000 * 60 * 60)),
                 minutes: Math.floor((difference / 1000 / 60) % 60),
                 seconds: Math.floor((difference / 1000) % 60),
