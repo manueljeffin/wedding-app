@@ -15,7 +15,7 @@ function BibleChapter() {
 
 
     return (
-        <div className={'space-y-2'}>{`Today's Bible reading: Psalm ${Math.trunc((new Date(endDate) - ISTTime)/(1000 * 60 * 60 * 24))}`}</div>
+        <div className={'space-y-2'}>{`Today's Bible reading: Psalm ${Math.trunc((new Date(endDate).valueOf() - ISTTime.valueOf())/(1000 * 60 * 60 * 24))}`}</div>
     );
 }
 
