@@ -32,6 +32,7 @@ export default function Home() {
                   sizes="100vw"
                   className={`opacity-20`}
                   alt={'alt'}
+
               />
 
               <div className={"flex flex-col h-screen justify-center items-center space-x-4 space-y-8"}>
