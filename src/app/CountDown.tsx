@@ -45,19 +45,19 @@ function CountDown() {
     return (
         <div className={'space-y-2'}>
             <div className="text-6xl text-center flex w-full items-center justify-center">
-                <div className="lg:w-24 mx-1 p-2 bg-black text-green-500 rounded-lg">
+                <div className="lg:w-24 mx-1 p-2 bg-black dark:bg-white text-green-500 rounded-lg">
                     <div className="font-mono leading-none" x-text="days">{timeLeft.days}</div>
                     <div className="font-mono uppercase text-sm leading-none">Days</div>
                 </div>
-                <div className="lg:w-24 mx-1 p-2 bg-black text-green-500 rounded-lg">
+                <div className="lg:w-24 mx-1 p-2 bg-black dark:bg-white text-green-500 rounded-lg">
                     <div className="font-mono leading-none" x-text="days">{timeLeft.hours}</div>
                     <div className="font-mono uppercase text-sm leading-none">Hours</div>
                 </div>
-                <div className="lg:w-24 mx-1 p-2 bg-black text-green-500 rounded-lg">
+                <div className="lg:w-24 mx-1 p-2 bg-black dark:bg-white text-green-500 rounded-lg">
                     <div className="font-mono leading-none" x-text="days">{timeLeft.minutes}</div>
                     <div className="font-mono uppercase text-sm leading-none">Minutes</div>
                 </div>
-                <div className="lg:w-24 mx-1 p-2 bg-black text-green-500 rounded-lg">
+                <div className="lg:w-24 mx-1 p-2 bg-black dark:bg-white text-green-500 rounded-lg">
                     <div className="font-mono leading-none" x-text="days">{timeLeft.seconds}</div>
                     <div className="font-mono uppercase text-sm leading-none">Seconds</div>
                 </div>
