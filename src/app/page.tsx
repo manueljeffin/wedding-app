@@ -26,11 +26,10 @@ export default function Home() {
               }}
           >
               <Image
-                  src="images/wedding.svg"
+                  src="/images/wedding-v2.jpeg"
                   layout="fill"
-                  objectFit="cover"
-                  sizes="100vw"
-                  className={`opacity-20`}
+                  objectFit="fill"
+                  className={`opacity-30`}
                   alt={'alt'}
 
               />
