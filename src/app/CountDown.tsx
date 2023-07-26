@@ -18,7 +18,7 @@ function CountDown() {
 
         var ISTTime = new Date(currentTime.getTime() + (ISTOffset + currentOffset)*60000);
 
-        const difference = +new Date("2023-10-22T00:00:00+05:30").valueOf() - +ISTTime.valueOf();
+        const difference = +new Date(endDate).valueOf() - +ISTTime.valueOf();
 
 
         let timeLeft = {days:0, hours: 0, minutes: 0, seconds: 0};

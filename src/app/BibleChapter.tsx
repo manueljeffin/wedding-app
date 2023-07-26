@@ -14,7 +14,9 @@ function BibleChapter() {
 
     var ISTTime = new Date(currentTime.getTime() + (ISTOffset + currentOffset) * 60000);
 
-    var chapter = (Math.trunc((new Date(endDate).valueOf() - ISTTime.valueOf()) / (1000 * 60 * 60 * 24))) + 1;
+    const difference = +new Date(endDate).valueOf() - +ISTTime.valueOf();
+
+    const chapter = Math.floor(difference / (1000 * 60 * 60 * 24)) + 1;
 
     return (
             <div className={'space-y-2 text-2xl lg:text-6xl text-green-500 rounded-lg'}>
